@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
+using ProjectII.Data;
 
 namespace ProjectII.Controllers
 {
@@ -8,63 +10,71 @@ namespace ProjectII.Controllers
     [ApiController]
     public class TrainController : ControllerBase
     {
-        private static List<Train> trains = new List<Train>
-            {
-                new Train {
-                    Id = 1,
-                    Name = "IBG",
-                    Number = 779
-                },
-                new Train {
-                    Id = 2,
-                    Name = "IBH",
-                    Number = 552
-                }
-            };
-        [HttpGet]
-        public async Task<ActionResult<List<Train>>> Get()
+        private readonly DataContext context;
+
+        public TrainController(DataContext context)
         {
-            return Ok(trains);
+            this.context = context;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<Train>>> GetAll()
+        {
+            return Ok(context.Trains.ToList());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Train>> Get(int id)
+        public async Task<ActionResult<Train>> GetTrain(int id)
         {
-            var train = trains.Find(h => h.Id == id);
+            Train train = context.Trains.Find(id);
             if (train == null)
-                return BadRequest("Train not found.");
+                return NotFound();
             return Ok(train);
         }
 
         [HttpPost]
         public async Task<ActionResult<List<Train>>> AddTrain(Train train)
         {
-            trains.Add(train);
-            return Ok(trains);
+            context.Trains.Add(train);
+            await context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(AddTrain), train, new
+            {
+                id = train.Id,
+                name = train.Name,
+                number = train.Number
+            });
         }
 
-        [HttpPut]
+        [HttpPut("{request.id}")]
         public async Task<ActionResult<List<Train>>> UpdateTrain(Train request)
         {
-            var train = trains.Find(h => h.Id == request.Id);
+            Train train = context.Trains.Find(request.Id);
+
             if (train == null)
-                return BadRequest("Train not found.");
+            {
+                return NotFound();
+            }
 
             train.Name = request.Name;
             train.Number = request.Number;
-            
-            return Ok(trains);
+
+            await context.SaveChangesAsync();
+
+            return Ok(train);
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult<Train>> Delete(int id)
         {
-            var train = trains.Find(h => h.Id == id);
-            if (train == null)
-                return BadRequest("Train not found.");
+            foreach (var train in  context.Trains)
+            {
+                if (train.Id == id)
+                    context.Trains.Remove(train);
+            }
 
-            trains.Remove(train);
-            return Ok(trains);
+            await context.SaveChangesAsync();
+            return Ok();
         }
     }
 }

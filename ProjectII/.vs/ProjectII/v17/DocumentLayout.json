@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\",
+  "WorkspaceRootPath": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\gota\\projectii\\projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\gota\\projectii\\projectii\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\gota\\projectii\\projectii\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\tot\\faculta2024\\rts\\proiectgota\\projectii\\projectii\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\gota\\projectii\\projectii\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\tot\\faculta2024\\rts\\proiectgota\\projectii\\projectii\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\gota\\projectii\\projectii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\tot\\faculta2024\\rts\\proiectgota\\projectii\\projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\gota\\projectii\\projectii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\tot\\faculta2024\\rts\\proiectgota\\projectii\\projectii\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\tot\\faculta2024\\rts\\proiectgota\\projectii\\projectii\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\tot\\faculta2024\\rts\\proiectgota\\projectii\\projectii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\gota\\projectii\\projectii\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\tot\\faculta2024\\rts\\proiectgota\\projectii\\projectii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,50 +46,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Data\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "ProjectII\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Data\\DataContext.cs",
               "RelativeToolTip": "ProjectII\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T13:03:09.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TrainController.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
+              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
               "RelativeDocumentMoniker": "ProjectII\\Controllers\\TrainController.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
+              "ToolTip": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
               "RelativeToolTip": "ProjectII\\Controllers\\TrainController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T12:21:28.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Train.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Train.cs",
+              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Train.cs",
               "RelativeDocumentMoniker": "ProjectII\\Train.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Train.cs",
+              "ToolTip": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Train.cs",
               "RelativeToolTip": "ProjectII\\Train.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:17:52.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T12:17:52.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ProjectII\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\WeatherForecast.cs",
               "RelativeToolTip": "ProjectII\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,13 +97,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Program.cs",
               "RelativeDocumentMoniker": "ProjectII\\Program.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Program.cs",
+              "ToolTip": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Program.cs",
               "RelativeToolTip": "ProjectII\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T12:08:11.197Z",
               "EditorCaption": ""
@@ -113,27 +112,25 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\appsettings.json",
               "RelativeDocumentMoniker": "ProjectII\\appsettings.json",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\appsettings.json",
+              "ToolTip": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\appsettings.json",
               "RelativeToolTip": "ProjectII\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-18T12:08:09.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T12:08:09.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProjectII\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\gota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
               "RelativeToolTip": "ProjectII\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-18T12:07:41.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T12:07:41.864Z"
             }
           ]
         }
