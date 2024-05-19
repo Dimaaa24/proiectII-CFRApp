@@ -1,43 +1,25 @@
-
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Navbar from './pages/Navbar';
+import Footer from './pages/Footer';
 
-// navigatu
+// Navigation bar
 
-function App() {
+const App = () => {
   return (
-    <>
-     
-    <nav className='navMenu' >
-    <a>
-    <Link to="/">Home</Link>
-    </a>
-    <a>
-    <Link to="/login">Login</Link>
-    </a>
-    <a>
-    <Link to="/register">Register</Link>
-    </a>
-    <div className="dot"></div>
-      
-       
-      
-    </nav>
-  <Routes>
-  
-    
-    <Route path ="/" element = {<Home/>}/>
-    <Route path ="/login" element = {<Login/>}/>
-    <Route path ="/register" element = {<Register/>}/>
-
-    
-  </Routes>
-  </>
-  )
-
-}
+    <main className="overflow-hidden">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+      <Footer />
+    </main>
+  );
+};
 
 export default App;
