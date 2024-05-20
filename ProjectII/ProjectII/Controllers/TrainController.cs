@@ -11,6 +11,7 @@ namespace ProjectII.Controllers
     public class TrainController : ControllerBase
     {
         private readonly DataContext context;
+        private readonly int i;
 
         public TrainController(DataContext context)
         {
