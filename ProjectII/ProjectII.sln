@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectII", "ProjectII\ProjectII.csproj", "{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectII", "ProjectII\ProjectII.csproj", "{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProiectII.Business", "ProiectII.Business\ProiectII.Business.csproj", "{F2689637-B570-425E-9B92-6983D3658A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProiectII.SqliteRepository", "ProiectII.SqliteRepositoru\ProiectII.SqliteRepository.csproj", "{F0BE3DA2-5F5A-438C-B471-6941078C151E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2689637-B570-425E-9B92-6983D3658A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2689637-B570-425E-9B92-6983D3658A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2689637-B570-425E-9B92-6983D3658A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2689637-B570-425E-9B92-6983D3658A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BE3DA2-5F5A-438C-B471-6941078C151E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BE3DA2-5F5A-438C-B471-6941078C151E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BE3DA2-5F5A-438C-B471-6941078C151E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BE3DA2-5F5A-438C-B471-6941078C151E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

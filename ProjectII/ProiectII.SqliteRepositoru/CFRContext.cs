@@ -1,18 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProiectII.Business.Models;
 
-namespace ProjectII.Data
+namespace ProjectII.SqliteRepository
 {
-    public class DataContext : DbContext
+    public class CFRContext : DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
-        {
-            
-        }
-
         public DbSet<Train> Trains => Set<Train>();
-        public DbSet<User> Users => Set<User>(); 
+        public DbSet<User> Users => Set<User>();
         public DbSet<Tickets> Tickets => Set<Tickets>();
         public DbSet<Routes> Routes => Set<Routes>();
+
+        public CFRContext(DbContextOptions<CFRContext> options) : base(options)
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

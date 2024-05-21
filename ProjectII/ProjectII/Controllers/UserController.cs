@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProjectII.Data;
+using ProiectII.Business.Models;
 
 namespace ProjectII.Controllers
 {
@@ -8,18 +8,18 @@ namespace ProjectII.Controllers
     public class UserController : Controller
     {
 
-        private readonly DataContext context;
+        private readonly CFRContext CFRcontext;
 
-        public UserController(DataContext context)
+        public UserController(CFRContext CFRcontext)
         {
-            this.context = context;
+            this.CFRcontext = CFRcontext ?? throw new ArgumentNullException(nameof(CFRcontext));
         }
 
         [HttpPost]
         public async Task<ActionResult<List<User>>> AddUser(User user)
         {
-            context.Users.Add(user);
-            await context.SaveChangesAsync();
+            CFRContext.Users.Add(user);
+            await CFRContext.SaveChangesAsync();
 
             return CreatedAtAction(nameof(AddUser), user, new
             {

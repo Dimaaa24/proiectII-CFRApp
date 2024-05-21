@@ -1,69 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\",
+  "WorkspaceRootPath": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\migrations\\20240521134748_addroutetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\migrations\\20240521134748_addroutetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\migrations\\20240521133312_addtickettable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\migrations\\20240521133312_addtickettable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\routes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\routes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\migrations\\20240521125325_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\migrations\\20240521125325_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\migrations\\20240518133711_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\migrations\\20240518133711_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\projectii\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\projectii\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BE3DA2-5F5A-438C-B471-6941078C151E}|ProiectII.SqliteRepositoru\\ProiectII.SqliteRepository.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\proiectii.sqliterepositoru\\cfrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0BE3DA2-5F5A-438C-B471-6941078C151E}|ProiectII.SqliteRepositoru\\ProiectII.SqliteRepository.csproj|solutionrelative:proiectii.sqliterepositoru\\cfrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\projectii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\dutka\\desktop\\proiectgota\\proiectgota\\projectii\\projectii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\proiectii.business\\models\\routes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|solutionrelative:proiectii.business\\models\\routes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\proiectii.business\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|solutionrelative:proiectii.business\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\proiectii.business\\models\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|solutionrelative:proiectii.business\\models\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\proiectii.business\\models\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2689637-B570-425E-9B92-6983D3658A15}|ProiectII.Business\\ProiectII.Business.csproj|solutionrelative:proiectii.business\\models\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota\\projectii\\projectii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CFB15FF6-4E15-49A5-BD6E-570F173BECE7}|ProjectII\\ProjectII.csproj|solutionrelative:projectii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -74,162 +50,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240521134748_AddRouteTable.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240521134748_AddRouteTable.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Migrations\\20240521134748_AddRouteTable.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240521134748_AddRouteTable.cs",
-              "RelativeToolTip": "ProjectII\\Migrations\\20240521134748_AddRouteTable.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:47:50.066Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Train.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Train.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Train.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Train.cs",
-              "RelativeToolTip": "ProjectII\\Train.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Title": "CFRContext.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.SqliteRepositoru\\CFRContext.cs",
+              "RelativeDocumentMoniker": "ProiectII.SqliteRepositoru\\CFRContext.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.SqliteRepositoru\\CFRContext.cs",
+              "RelativeToolTip": "ProiectII.SqliteRepositoru\\CFRContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:17:52.231Z",
+              "WhenOpened": "2024-05-21T14:23:13.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20240521125325_AddUserTable.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240521125325_AddUserTable.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Migrations\\20240521125325_AddUserTable.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240521125325_AddUserTable.cs",
-              "RelativeToolTip": "ProjectII\\Migrations\\20240521125325_AddUserTable.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAATAAAA",
+              "Title": "Train.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\Train.cs",
+              "RelativeDocumentMoniker": "ProiectII.Business\\Models\\Train.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\Train.cs",
+              "RelativeToolTip": "ProiectII.Business\\Models\\Train.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T12:53:57.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Routes.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Routes.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Routes.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Routes.cs",
-              "RelativeToolTip": "ProjectII\\Routes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:10:18.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Data\\DataContext.cs",
-              "RelativeToolTip": "ProjectII\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:03:09.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\DataContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Migrations\\DataContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\DataContextModelSnapshot.cs",
-              "RelativeToolTip": "ProjectII\\Migrations\\DataContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T12:33:37.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240521133312_AddTicketTable.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240521133312_AddTicketTable.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Migrations\\20240521133312_AddTicketTable.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240521133312_AddTicketTable.cs",
-              "RelativeToolTip": "ProjectII\\Migrations\\20240521133312_AddTicketTable.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:33:14.1Z",
+              "WhenOpened": "2024-05-21T14:21:38.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "20240518133711_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240518133711_Initial.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Migrations\\20240518133711_Initial.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Migrations\\20240518133711_Initial.cs",
-              "RelativeToolTip": "ProjectII\\Migrations\\20240518133711_Initial.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAUwCEAAAAFAAAA",
+              "Title": "Tickets.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\Tickets.cs",
+              "RelativeDocumentMoniker": "ProiectII.Business\\Models\\Tickets.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\Tickets.cs",
+              "RelativeToolTip": "ProiectII.Business\\Models\\Tickets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T12:37:32.236Z",
+              "WhenOpened": "2024-05-21T14:21:35.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routes.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\Routes.cs",
+              "RelativeDocumentMoniker": "ProiectII.Business\\Models\\Routes.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\Routes.cs",
+              "RelativeToolTip": "ProiectII.Business\\Models\\Routes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T14:21:31.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProiectII.Business\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProiectII.Business\\Models\\User.cs",
+              "RelativeToolTip": "ProiectII.Business\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T14:20:52.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\User.cs",
-              "RelativeDocumentMoniker": "ProjectII\\User.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\User.cs",
-              "RelativeToolTip": "ProjectII\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T12:39:35.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Tickets.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Tickets.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Tickets.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Tickets.cs",
-              "RelativeToolTip": "ProjectII\\Tickets.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:04:21.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TrainController.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
-              "RelativeDocumentMoniker": "ProjectII\\Controllers\\TrainController.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
-              "RelativeToolTip": "ProjectII\\Controllers\\TrainController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:21:28.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Program.cs",
               "RelativeDocumentMoniker": "ProjectII\\Program.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Program.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Program.cs",
               "RelativeToolTip": "ProjectII\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,53 +132,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "ProjectII\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\WeatherForecast.cs",
-              "RelativeToolTip": "ProjectII\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "TrainController.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
+              "RelativeDocumentMoniker": "ProjectII\\Controllers\\TrainController.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Controllers\\TrainController.cs",
+              "RelativeToolTip": "ProjectII\\Controllers\\TrainController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T12:09:31.312Z",
+              "WhenOpened": "2024-05-18T12:21:28.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProjectII\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProjectII\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T12:41:37.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\appsettings.json",
               "RelativeDocumentMoniker": "ProjectII\\appsettings.json",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\appsettings.json",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\appsettings.json",
               "RelativeToolTip": "ProjectII\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-18T12:08:09.998Z"
+              "WhenOpened": "2024-05-18T12:08:09.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProjectII\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota\\ProjectII\\ProjectII\\Properties\\launchSettings.json",
               "RelativeToolTip": "ProjectII\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-18T12:07:41.864Z"
+              "WhenOpened": "2024-05-18T12:07:41.864Z",
+              "EditorCaption": ""
             }
           ]
         }

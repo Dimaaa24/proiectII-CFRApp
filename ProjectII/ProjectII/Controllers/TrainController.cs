@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Microsoft.EntityFrameworkCore;
-using ProjectII.Data;
+using ProiectII.Business.Models;
+using ProjectII.SqliteRepository;
 
 namespace ProjectII.Controllers
 {

@@ -9,7 +9,7 @@ using ProjectII.Data;
 
 namespace ProjectII.Migrations
 {
-    [DbContext(typeof(DataContext))]
+    [DbContext(typeof(CFRContext))]
     [Migration("20240521133312_AddTicketTable")]
     partial class AddTicketTable
     {
