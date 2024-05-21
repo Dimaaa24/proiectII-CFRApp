@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj": {}
+    "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj": {
+    "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj",
+        "projectUniqueName": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj",
         "projectName": "ProjectII",
-        "projectPath": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj",
+        "projectPath": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj",
         "packagesPath": "C:\\Users\\dutka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\obj\\",
+        "outputPath": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

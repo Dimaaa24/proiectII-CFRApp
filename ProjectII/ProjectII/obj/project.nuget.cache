@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rZ/9INP6w66R2s+zSdAey0E38RBoxiAXme0oMm/OegYZl/oKhiewUnWGMA8iE8VSdhK6kdrsrka67eI97WBGuw==",
+  "dgSpecHash": "1jX6yB6G3nHwqRH7M3TYRHZvsB5FlFZ9KxDYwpYnSoTJdBr0o/QjUQg45hqJ+mxH4to/ylDZ0LdiIIp3Zr3KnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dutka\\Desktop\\tot\\faculta2024\\RTS\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj",
+  "projectFilePath": "C:\\Users\\dutka\\Desktop\\proiectgota\\proiectgota\\ProjectII\\ProjectII\\ProjectII.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dutka\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dutka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

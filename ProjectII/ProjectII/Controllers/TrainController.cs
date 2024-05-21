@@ -6,12 +6,11 @@ using ProjectII.Data;
 
 namespace ProjectII.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Trains")]
     [ApiController]
     public class TrainController : ControllerBase
     {
         private readonly DataContext context;
-        private readonly int i;
 
         public TrainController(DataContext context)
         {
