@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const App = () => {
   const outerContainerStyles = 'w-full flex items-center justify-center pt-48';
   const navbarStyles = 'bg-white p-4 rounded shadow';
-
+  
   return (
     <div className={outerContainerStyles}>
       <header className={navbarStyles}>
@@ -22,6 +22,7 @@ const App = () => {
           >
             Register
           </Link>
+          
         </nav>
       </header>
     </div>
