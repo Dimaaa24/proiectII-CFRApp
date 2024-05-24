@@ -24,4 +24,8 @@
     <ProjectReference Include="..\ProiectII.BusinessModels\ProiectII.BusinessModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

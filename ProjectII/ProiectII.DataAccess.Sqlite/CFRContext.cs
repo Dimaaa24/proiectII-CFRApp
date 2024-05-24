@@ -16,12 +16,13 @@ namespace ProjectII.DataAccess.Sqlite
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Routes>()
-                .HasOne(r => r.Train)
-                .WithMany(t => t.Routes)
-                .HasForeignKey(r => r.TrainId);
-            
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Train>()
+                .HasOne(t => t.Routes)
+                .WithMany(r => r.Trains)
+                .HasForeignKey(t => t.RouteId)
+                .IsRequired();
+
+            //base.OnModelCreating(modelBuilder);
         }
     }
 }

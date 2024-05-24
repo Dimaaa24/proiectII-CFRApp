@@ -8,6 +8,7 @@ namespace ProiectII.BusinessModels.Models
         public int Id {  get; set; }
         public string Name { get; set; } 
         public int Number {  get; set; } 
-        public IEnumerable<Routes> Routes { get; set; }
+        public int RouteId { get; set; }
+        public Routes Routes { get; set; } = null;
     }
 }
