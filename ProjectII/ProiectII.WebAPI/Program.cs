@@ -7,7 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<CFRContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+   options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 

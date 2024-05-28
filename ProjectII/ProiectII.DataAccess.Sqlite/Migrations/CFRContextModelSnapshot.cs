@@ -37,12 +37,7 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("TrainId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("TrainId");
 
                     b.ToTable("Routes");
                 });
@@ -81,7 +76,12 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                     b.Property<int>("Number")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("RouteId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("RouteId");
 
                     b.ToTable("Trains");
                 });
@@ -109,20 +109,20 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("ProiectII.BusinessModels.Models.Routes", b =>
+            modelBuilder.Entity("ProiectII.BusinessModels.Models.Train", b =>
                 {
-                    b.HasOne("ProiectII.BusinessModels.Models.Train", "Train")
-                        .WithMany("Routes")
-                        .HasForeignKey("TrainId")
+                    b.HasOne("ProiectII.BusinessModels.Models.Routes", "Routes")
+                        .WithMany("Trains")
+                        .HasForeignKey("RouteId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Train");
+                    b.Navigation("Routes");
                 });
 
-            modelBuilder.Entity("ProiectII.BusinessModels.Models.Train", b =>
+            modelBuilder.Entity("ProiectII.BusinessModels.Models.Routes", b =>
                 {
-                    b.Navigation("Routes");
+                    b.Navigation("Trains");
                 });
 #pragma warning restore 612, 618
         }

@@ -12,6 +12,22 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Routes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Source = table.Column<string>(type: "TEXT", nullable: false),
+                    Destination = table.Column<string>(type: "TEXT", nullable: false),
+                    DepartureTime = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    ArrivalTime = table.Column<DateTime>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Routes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Tickets",
                 columns: table => new
                 {
@@ -24,20 +40,6 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Tickets", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Trains",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: false),
-                    Number = table.Column<int>(type: "INTEGER", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Trains", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -56,48 +58,46 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Routes",
+                name: "Trains",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Source = table.Column<string>(type: "TEXT", nullable: false),
-                    Destination = table.Column<string>(type: "TEXT", nullable: false),
-                    TrainId = table.Column<int>(type: "INTEGER", nullable: false),
-                    DepartureTime = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    ArrivalTime = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    Name = table.Column<string>(type: "TEXT", nullable: false),
+                    Number = table.Column<int>(type: "INTEGER", nullable: false),
+                    RouteId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Routes", x => x.Id);
+                    table.PrimaryKey("PK_Trains", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Routes_Trains_TrainId",
-                        column: x => x.TrainId,
-                        principalTable: "Trains",
+                        name: "FK_Trains_Routes_RouteId",
+                        column: x => x.RouteId,
+                        principalTable: "Routes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Routes_TrainId",
-                table: "Routes",
-                column: "TrainId");
+                name: "IX_Trains_RouteId",
+                table: "Trains",
+                column: "RouteId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Routes");
+                name: "Tickets");
 
             migrationBuilder.DropTable(
-                name: "Tickets");
+                name: "Trains");
 
             migrationBuilder.DropTable(
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Trains");
+                name: "Routes");
         }
     }
 }
