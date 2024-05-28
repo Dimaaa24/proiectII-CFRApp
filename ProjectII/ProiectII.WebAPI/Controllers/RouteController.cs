@@ -3,6 +3,8 @@ using ProjectII.DataAccess.Sqlite;
 
 namespace ProiectII.WebAPI.Controllers
 {
+    [Route("Routes")]
+    [ApiController]
     public class RouteController : Controller
     {
         private readonly CFRContext cfrContext;
