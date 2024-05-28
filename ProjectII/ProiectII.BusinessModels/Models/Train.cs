@@ -9,6 +9,5 @@ namespace ProiectII.BusinessModels.Models
         public string Name { get; set; } 
         public int Number {  get; set; } 
         public int RouteId { get; set; }
-        public Routes Routes { get; set; } = null;
     }
 }
