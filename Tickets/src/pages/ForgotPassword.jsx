@@ -1,25 +1,26 @@
 import React, { useState } from 'react';
 
-import { useNavigate } from 'react-router-dom';
 
-const Login = () => {
-  // preia datele din form si le salveaza
+const ForgotPassword = () => {
   const [inputs, setInputs] = useState({});
-  const navigate = useNavigate();
+  
+  
   const handleChange = (event) => {
     const { name, value } = event.target;
     setInputs((values) => ({ ...values, [name]: value }));
   };
 
   const handleSubmit = (event) => {
+    event.preventDefault();
 
-    //event.preventDefault();
-    // trebuie sa verificam daca avem continutul in baza de date
-    navigate('/menu');
-    // sa vad daca preia datele din form
+    // Logic to handle forgot password submission
     console.log(inputs);
+
+    
   };
-   
+
+ 
+
   return (
     <div className="pt-10 flex justify-center">
       <form className="login-form" onSubmit={handleSubmit}>
@@ -34,35 +35,29 @@ const Login = () => {
           required
           onChange={handleChange}
         />
-        <label className="password pt-4">Password</label>
+        <label className="password pt-4">New Password</label>
         <input
           type="password"
-          name="password"
-          id="password"
-          placeholder="Enter your password..."
+          name="newpassword"
+          id="newpassword"
+          placeholder="Enter your new password..."
           autoComplete="off"
           className="form-control-material text-center text-black"
           required
           onChange={handleChange}
         />
-       
-        {/* Si la astea era htmlFor nu stiu ce era :) */}
+     
         <div className="multiple-choice-login">
           <button className="button-login hover:red" type="submit">
-            Log In
+            Reset Password
           </button>
           <a
-            href="./Register"
+            href="./login"
             className="hover:text-red-400 ease-in duration-150 pt-4"
           >
-            Don't have an account?
+            
           </a>
-          <a
-            href="./forgotpassword"
-            className="hover:text-red-400 ease-in duration-150 pt-4"
-          >
-            Forgot password
-          </a>
+         
         </div>
 
        
@@ -73,4 +68,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default ForgotPassword;
