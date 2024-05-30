@@ -1,17 +1,66 @@
-import React, { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+
 
 const Register = () => {
   const [inputs, setInputs] = useState({});
-  // const navigate = useNavigate();
+  const [error, setError] = useState('');
+  
+
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setInputs((values) => ({ ...values, [name]: value }));
+    setInputs({ ...inputs, [name]: value });
+    setError('');
   };
+
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(inputs);
+    console.log(inputs.userName);
+
+    const { confirm_password, ...payload } = inputs;
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(inputs.email)) {
+      setError('Invalid email format');
+      return;
+    }
+
+    if (inputs.password.length < 6) {
+      setError('Password must be at least 6 characters long');
+      return;
+    }
+
+    if (inputs.password !== inputs.confirm_password) {
+      setError('Passwords do not match');
+      return;
+    }
+
+    fetch("http://localhost:5110/Users", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+    .then(response => {
+      if (response.status === 409) {
+        // If response status is 409, parse the response JSON to get the error message
+        return response.json().then(data => {
+          setError(data.message);
+          throw new Error(data.message); // Throw an error to stop further processing
+        });
+      }
+      return response.json();
+    })
+      .then((data) => {
+        console.log("Success:", data);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
+
+
   return (
     <div className="pt-10 flex justify-center">
       <form className="login-form" onSubmit={handleSubmit}>
@@ -33,8 +82,8 @@ const Register = () => {
         <label className="username">Username</label>
         <input
           type="text"
-          name="username"
-          id="username"
+          name="userName"
+          id="userName"
           placeholder="Enter your username"
           autoComplete="off"
           className="form-control-material text-center text-black"
@@ -68,6 +117,7 @@ const Register = () => {
           onChange={handleChange}
         />
         <div className="multiple-choice-login">
+          {error && <p style={{ color: 'red' }}>{error}</p>}
           <button className="button-login" type="submit">
             Register
           </button>
