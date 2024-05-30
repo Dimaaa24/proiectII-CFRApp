@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProiectII.BusinessModels.Models;
 using ProjectII.DataAccess.Sqlite;
 
@@ -32,19 +33,28 @@ namespace ProjectII.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<List<User>>> AddUser(User user)
+        public async Task<ActionResult<User>> AddUser(User user)
         {
+            // Check if email or username already exists
+            var existingUserByEmail = await CFRcontext.Users.FirstOrDefaultAsync(u => u.Email == user.Email);
+            var existingUserByUsername = await CFRcontext.Users.FirstOrDefaultAsync(u => u.UserName == user.UserName);
+
+            if (existingUserByEmail != null)
+            {
+                return Conflict(new { message = "Email is already taken." });
+            }
+
+            if (existingUserByUsername != null)
+            {
+                return Conflict(new { message = "Username is already taken." });
+            }
+
             CFRcontext.Users.Add(user);
             await CFRcontext.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(AddUser), user, new
-            {
-                id = user.Id,
-                email = user.Email,
-                username = user.UserName,
-                password = user.Password
-            });
+            return CreatedAtAction(nameof(AddUser), new { id = user.Id }, user);
         }
+
 
         [HttpPut("{request.id}")]
         public async Task<ActionResult<List<Train>>> UpdateUser(User user)
