@@ -5,33 +5,35 @@ const UserPage = () => {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [routes, setRoutes] = useState([]);
-  const [minDate, setMinDate] = useState('');
+  const [minDate, setMinDate] = useState("");
 
   useEffect(() => {
     // Calculate tomorrow's date
     const tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
-    const tomorrowISO = tomorrow.toISOString().split('T')[0]; // Format as YYYY-MM-DD
+    const tomorrowISO = tomorrow.toISOString().split("T")[0]; // Format as YYYY-MM-DD
     setMinDate(tomorrowISO);
   }, []);
 
   const handleSearch = () => {
     // Check if both "from" and "to" fields are filled
-    if (from.trim() !== '' && to.trim() !== '') {
+    if (from.trim() !== "" && to.trim() !== "") {
       fetch(`http://localhost:5110/Routes`)
-        .then(response => {
+        .then((response) => {
           if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error("Network response was not ok");
           }
           return response.json();
         })
-        .then(data => {
+        .then((data) => {
           // Filter routes based on the provided source and destination
-          const filteredRoutes = data.filter(route => route.source === from && route.destination === to);
+          const filteredRoutes = data.filter(
+            (route) => route.source === from && route.destination === to
+          );
           setRoutes(filteredRoutes);
         })
-        .catch(error => {
-          console.error('Error fetching routes:', error);
+        .catch((error) => {
+          console.error("Error fetching routes:", error);
         });
     } else {
       // If either "from" or "to" field is empty, display an error message or handle it as needed
@@ -47,8 +49,10 @@ const UserPage = () => {
             <img src="/logo.jpg" alt="Logo" className="h-10" />
             <div className="text-lg font-bold">CFR Travellers</div>
           </div>
-          <div className="flex space-x-4">
-            <label htmlFor="">username</label>
+          <div className="flex items-center space-x-4">
+            <label className="text-center w-full uppercase">
+              {localStorage.getItem("username")}
+            </label>
             <NavLink
               to="/login"
               className="bg-orange-500 px-4 py-2 rounded text-white"
@@ -65,14 +69,14 @@ const UserPage = () => {
       >
         <div className="container mx-auto flex flex-col items-center justify-center h-full text-center">
           <h1 className="text-3xl font-bold text-white">
-            Cumpără bilete de tren online
+            Buy the tickets online now!
           </h1>
         </div>
       </div>
 
       {/* Here lies the search */}
       <div className="container mx-auto mt-8 p-4 bg-white shadow-lg rounded-lg">
-        <h2 className="text-xl font-bold mb-4">MERSUL TRENURILOR</h2>
+        <h2 className="text-xl font-bold mb-4">Trains coverage</h2>
         <div className="space-y-4">
           <div>
             <label htmlFor="from" className="block text-zinc-700">
@@ -102,7 +106,7 @@ const UserPage = () => {
           </div>
           <div>
             <label htmlFor="departure-date" className="block text-zinc-700">
-              Dată de plecare
+              Departure Date
             </label>
             <input
               type="date"
@@ -130,7 +134,9 @@ const UserPage = () => {
             className="bg-white rounded-lg shadow-md p-4 mb-4"
           >
             <p className="font-bold">Route Details:</p>
-            <p>From: {route.source}    ------       To: {route.destination}</p>
+            <p>
+              From: {route.source} ------ To: {route.destination}
+            </p>
             <p>Departure: {route.departureTime}</p>
             <p>Arrival: {route.arrivalTime}</p>
             {/* Add more details about the route as needed */}

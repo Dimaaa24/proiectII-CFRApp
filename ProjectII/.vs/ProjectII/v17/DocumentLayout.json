@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|d:\\facultate\\proiectii\\proiectgota\\projectii\\proiectii.businessmodels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|solutionrelative:proiectii.businessmodels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|d:\\facultate\\proiectii\\proiectgota\\projectii\\proiectii.dataaccess.sqlite\\migrations\\20240528154845_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|solutionrelative:proiectii.dataaccess.sqlite\\migrations\\20240528154845_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgota\\projectii\\proiectii.webapi\\proiectii.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\proiectii.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240528154845_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgota\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240528154845_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProiectII.DataAccess.Sqlite\\Migrations\\20240528154845_InitialCreate.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgota\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240528154845_InitialCreate.cs",
+              "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\Migrations\\20240528154845_InitialCreate.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwD4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:54:58.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgota\\ProjectII\\ProiectII.BusinessModels\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProiectII.BusinessModels\\Models\\User.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgota\\ProjectII\\ProiectII.BusinessModels\\Models\\User.cs",
+              "RelativeToolTip": "ProiectII.BusinessModels\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:54:05.136Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +62,14 @@
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Facultate\\ProiectII\\proiectgota\\ProjectII\\ProiectII.WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAowEMAAAANAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T16:05:59.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProiectII.WebAPI.csproj",
               "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgota\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.csproj",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\ProiectII.WebAPI.csproj",

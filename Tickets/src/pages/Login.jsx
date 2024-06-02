@@ -23,41 +23,44 @@ const Login = () => {
     const { username, password } = inputs;
 
     // Simulated login logic
-    if (username === password) {
-      try {
-        const response = await fetch('http://localhost:5110/Users/login', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            id: 0, // Placeholder value
-            email: "", // Placeholder value
-            userName: username,
-            password: password
-          })
-        });
+    if (username !== '' && password !== '') {
+        try {
+            const response = await fetch('http://localhost:5110/Users/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    id: 0, // Placeholder value
+                    email: "", // Placeholder value
+                    userName: username,
+                    password: password
+                })
+            });
 
-        if (response.status === 409) {
-          setErrorMessage('User already exists or conflict');
-        } else if (response.ok) {
-          const data = await response.json();
-          if (username === 'admin') {
-            navigate('/adminpage');
-          } else {
-            navigate('/userpage');
-          }
-          console.log('Success:', data);
-        } else {
-          setErrorMessage('Failed to log in: ' + response.statusText);
+            if (response.status === 409) {
+                setErrorMessage('User already exists or conflict');
+            } else if (response.ok) {
+                const data = await response.json();
+
+                // Save username in local storage
+                localStorage.setItem('username', username);
+
+                if (username === 'admin') {
+                    navigate('/adminpage');
+                } else {
+                    navigate('/userpage');
+                }
+                console.log('Success:', data);
+            } else {
+              setErrorMessage('Username and password do not match');
+            }
+        } catch (error) {
+            setErrorMessage('Error: ' + error.message);
         }
-      } catch (error) {
-        setErrorMessage('Error: ' + error.message);
-      }
-    } else {
-      setErrorMessage('Login failed: Username and password do not match');
     }
-  };
+};
+
 
   return (
     <div className="pt-10 flex justify-center">
