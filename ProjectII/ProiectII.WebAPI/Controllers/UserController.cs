@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProiectII.BusinessModels.Models;
 using ProjectII.DataAccess.Sqlite;
 
@@ -43,6 +44,31 @@ namespace ProjectII.Controllers
                 email = user.Email,
                 username = user.UserName,
                 password = user.Password
+            });
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<User>> Login([FromBody] User loginUser)
+        {
+            // Access the username and password from the request
+            string username = loginUser.UserName;
+            string password = loginUser.Password;
+
+            // Find the user by their username
+            User user = await CFRcontext.Users.FirstOrDefaultAsync(u => u.UserName == username);
+
+            if (user == null || user.Password != password)
+            {
+                // Return Unauthorized if the user is not found or the password is incorrect
+                return Unauthorized();
+            }
+
+            // Return the user details (excluding sensitive information like password)
+            return Ok(new
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email
             });
         }
 
