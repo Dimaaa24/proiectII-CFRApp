@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProiectII.BusinessModels.Models;
 using ProjectII.DataAccess.Sqlite;
 
@@ -32,17 +33,50 @@ namespace ProjectII.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<List<User>>> AddUser(User user)
+        public async Task<ActionResult<User>> AddUser(User user)
         {
+            // Check if email or username already exists
+            var existingUserByEmail = await CFRcontext.Users.FirstOrDefaultAsync(u => u.Email == user.Email);
+            var existingUserByUsername = await CFRcontext.Users.FirstOrDefaultAsync(u => u.UserName == user.UserName);
+
+            if (existingUserByEmail != null)
+            {
+                return Conflict(new { message = "Email is already taken." });
+            }
+
+            if (existingUserByUsername != null)
+            {
+                return Conflict(new { message = "Username is already taken." });
+            }
+
             CFRcontext.Users.Add(user);
             await CFRcontext.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(AddUser), user, new
+            return CreatedAtAction(nameof(AddUser), new { id = user.Id }, user);
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<User>> Login([FromBody] User loginUser)
+        {
+            // Access the username and password from the request
+            string username = loginUser.UserName;
+            string password = loginUser.Password;
+
+            // Find the user by their username
+            User user = await CFRcontext.Users.FirstOrDefaultAsync(u => u.UserName == username);
+
+            if (user == null || user.Password != password)
             {
-                id = user.Id,
-                email = user.Email,
-                username = user.UserName,
-                password = user.Password
+                // Return Unauthorized if the user is not found or the password is incorrect
+                return Unauthorized();
+            }
+
+            // Return the user details (excluding sensitive information like password)
+            return Ok(new
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email
             });
         }
 

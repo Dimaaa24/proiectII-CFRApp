@@ -1,25 +1,67 @@
 import React, { useState } from 'react';
-
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
-  // preia datele din form si le salveaza
-  const [inputs, setInputs] = useState({});
+  const [inputs, setInputs] = useState({
+    username: '',
+    password: ''
+  });
+  const [errorMessage, setErrorMessage] = useState('');
+
   const navigate = useNavigate();
+
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setInputs((values) => ({ ...values, [name]: value }));
+    setInputs({
+      ...inputs,
+      [name]: value
+    });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const { username, password } = inputs;
 
-    //event.preventDefault();
-    // trebuie sa verificam daca avem continutul in baza de date
-    navigate('/menu');
-    // sa vad daca preia datele din form
-    console.log(inputs);
-  };
-   
+    // Simulated login logic
+    if (username !== '' && password !== '') {
+        try {
+            const response = await fetch('http://localhost:5110/Users/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    id: 0, // Placeholder value
+                    email: "", // Placeholder value
+                    userName: username,
+                    password: password
+                })
+            });
+
+            if (response.status === 409) {
+                setErrorMessage('User already exists or conflict');
+            } else if (response.ok) {
+                const data = await response.json();
+
+                // Save username in local storage
+                localStorage.setItem('username', username);
+
+                if (username === 'admin') {
+                    navigate('/adminpage');
+                } else {
+                    navigate('/userpage');
+                }
+                console.log('Success:', data);
+            } else {
+              setErrorMessage('Username and password do not match');
+            }
+        } catch (error) {
+            setErrorMessage('Error: ' + error.message);
+        }
+    }
+};
+
+
   return (
     <div className="pt-10 flex justify-center">
       <form className="login-form" onSubmit={handleSubmit}>
@@ -45,8 +87,6 @@ const Login = () => {
           required
           onChange={handleChange}
         />
-       
-        {/* Si la astea era htmlFor nu stiu ce era :) */}
         <div className="multiple-choice-login">
           <button className="button-login hover:red" type="submit">
             Log In
@@ -64,10 +104,7 @@ const Login = () => {
             Forgot password
           </a>
         </div>
-
-       
-         
-        
+        {errorMessage && <p className="text-red-500 pt-4">{errorMessage}</p>}
       </form>
     </div>
   );
