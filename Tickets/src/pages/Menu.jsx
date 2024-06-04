@@ -6,7 +6,7 @@ import React, { useEffect,  useState } from 'react';
 const Menu = ({ onPageLoad }) => {
   useEffect(() => {
     onPageLoad(); // Apelează funcția pentru a actualiza starea când componenta Menu este montată
-  }, []); // [] este un array gol, astfel încât efectul să fie apelat doar la montarea componentei
+  }, [onPageLoad]); // [] este un array gol, astfel încât efectul să fie apelat doar la montarea componentei
     
   // preia datele din form si le salveaza
     const [inputs, setInputs] = useState({});

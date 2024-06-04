@@ -34,10 +34,10 @@ const Login = () => {
                     id: 0, // Placeholder value
                     email: "", // Placeholder value
                     userName: username,
-                    password: password
+                    password: password,
+                    isBanned: 0 // Placeholder value
                 })
             });
-
             if (response.status === 409) {
                 setErrorMessage('User already exists or conflict');
             } else if (response.ok) {
@@ -45,11 +45,16 @@ const Login = () => {
 
                 // Save username in local storage
                 localStorage.setItem('username', username);
+                localStorage.setItem('userId', data.id);
 
                 if (username === 'admin') {
                     navigate('/adminpage');
                 } else {
+                    if (data.isBanned === 0) {
                     navigate('/userpage');
+                    } else {
+                      setErrorMessage('User is banned');
+                    }
                 }
                 console.log('Success:', data);
             } else {
