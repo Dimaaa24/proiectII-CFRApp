@@ -1,11 +1,13 @@
 import { NavLink } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
-const UserPage = () => {
+const UserPage = ({username}) => {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [routes, setRoutes] = useState([]);
   const [minDate, setMinDate] = useState("");
+  const [selectedRoute, setSelectedRoute] = useState(null);
+  const [routeOptions, setRouteOptions] = useState({});
 
   useEffect(() => {
     // Calculate tomorrow's date
@@ -39,6 +41,48 @@ const UserPage = () => {
       // If either "from" or "to" field is empty, display an error message or handle it as needed
       console.log('Please enter both "From" and "To" fields.');
     }
+  };
+
+  const handleOptionChange = (routeId, option, price) => {
+    setRouteOptions((prevOptions) => ({
+      ...prevOptions,
+      [routeId]: { option, price },
+    }));
+    setSelectedRoute(null); // Close the dropdown menu
+  };
+
+  // const handleBuy = (route) => {
+  //   const routeDetails = {
+  //     source: route.source,
+  //     destination: route.destination,
+  //     departureTime: route.departureTime,
+  //     arrivalTime: route.arrivalTime,
+  //     price: routeOptions[route.id]?.price,
+  //     type: routeOptions[route.id]?.option,
+  //   };
+  //   localStorage.setItem('routeDetails', JSON.stringify(routeDetails));
+  //   alert('Route purchased successfully!');
+  // };
+  const handleBuy = (route) => {
+    const routeDetails = {
+      source: route.source,
+      destination: route.destination,
+      departureTime: route.departureTime,
+      arrivalTime: route.arrivalTime,
+      price: routeOptions[route.id]?.price,
+      type: routeOptions[route.id]?.option,
+    };
+
+    // Get existing tickets from localStorage
+    const existingTickets = JSON.parse(localStorage.getItem(username)) || [];
+    
+    // Add new route details to the existing tickets
+    const updatedTickets = [...existingTickets, routeDetails];
+    
+    // Save the updated tickets back to localStorage
+    localStorage.setItem(username, JSON.stringify(updatedTickets));
+    
+    alert('Route purchased successfully!');
   };
 
   return (
@@ -126,23 +170,61 @@ const UserPage = () => {
         </div>
       </div>
 
-      {/* Display routes here */}
       <div className="container mx-auto mt-8">
-        {routes.map((route) => (
-          <div
-            key={route.id}
-            className="bg-white rounded-lg shadow-md p-4 mb-4"
-          >
-            <p className="font-bold">Route Details:</p>
-            <p>
-              From: {route.source} ------ To: {route.destination}
-            </p>
-            <p>Departure: {route.departureTime}</p>
-            <p>Arrival: {route.arrivalTime}</p>
-            {/* Add more details about the route as needed */}
+      {routes.map((route) => (
+        <div key={route.id} className="bg-white rounded-lg shadow-md p-4 mb-4">
+          <p className="font-bold">Route Details:</p>
+          <p>
+            From: {route.source} ------ To: {route.destination}
+          </p>
+          <p>Departure: {route.departureTime}</p>
+          <p>Arrival: {route.arrivalTime}</p>
+          <div className="relative">
+            <button
+              onClick={() => setSelectedRoute(route.id)}
+              className="bg-blue-500 text-white py-2 px-4 rounded"
+            >
+              Select Ticket Type
+            </button>
+            {selectedRoute === route.id && (
+              <div className="absolute bg-white border mt-2 py-2 rounded shadow-lg">
+                <button
+                  onClick={() => handleOptionChange(route.id, 'Student', 10)}
+                  className="block px-4 py-2 hover:bg-gray-200"
+                >
+                  Student - $10
+                </button>
+                <button
+                  onClick={() => handleOptionChange(route.id, 'Elder', 8)}
+                  className="block px-4 py-2 hover:bg-gray-200"
+                >
+                  Elder - $8
+                </button>
+                <button
+                  onClick={() => handleOptionChange(route.id, 'Adult', 15)}
+                  className="block px-4 py-2 hover:bg-gray-200"
+                >
+                  Adult - $15
+                </button>
+              </div>
+            )}
           </div>
-        ))}
-      </div>
+          {routeOptions[route.id] && (
+            <div className="mt-4">
+              <p>
+                Selected Option: {routeOptions[route.id].option} - Final Price: ${routeOptions[route.id].price}
+              </p>
+              <button
+                onClick={() => handleBuy(route)}
+                className="bg-green-500 text-white py-2 px-4 rounded"
+              >
+                BUY
+              </button>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
     </>
   );
 };
