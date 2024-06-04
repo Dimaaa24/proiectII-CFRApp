@@ -10,7 +10,7 @@ using ProjectII.DataAccess.Sqlite;
 namespace ProiectII.DataAccess.Sqlite.Migrations
 {
     [DbContext(typeof(CFRContext))]
-    [Migration("20240528154845_InitialCreate")]
+    [Migration("20240604150712_Initial-Create")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -52,11 +52,19 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("DepartureDate")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("RouteId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("SeatNumber")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("TrainId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("TicketType")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
@@ -96,6 +104,9 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("IsBanned")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Password")
                         .IsRequired()

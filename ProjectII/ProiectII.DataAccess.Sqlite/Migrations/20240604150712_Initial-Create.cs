@@ -34,7 +34,9 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     UserId = table.Column<int>(type: "INTEGER", nullable: false),
                     SeatNumber = table.Column<int>(type: "INTEGER", nullable: false),
-                    TrainId = table.Column<int>(type: "INTEGER", nullable: false)
+                    RouteId = table.Column<int>(type: "INTEGER", nullable: false),
+                    DepartureDate = table.Column<string>(type: "TEXT", nullable: false),
+                    TicketType = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -64,7 +66,8 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Email = table.Column<string>(type: "TEXT", nullable: false),
                     UserName = table.Column<string>(type: "TEXT", nullable: false),
-                    Password = table.Column<string>(type: "TEXT", nullable: false)
+                    Password = table.Column<string>(type: "TEXT", nullable: false),
+                    IsBanned = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -9,8 +9,7 @@ namespace ProiectII.BusinessModels.Models
         public string Email { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-
-//      public int isAdmin { get; set; }
+        public int IsBanned { get; set; }
 
     }
 }
