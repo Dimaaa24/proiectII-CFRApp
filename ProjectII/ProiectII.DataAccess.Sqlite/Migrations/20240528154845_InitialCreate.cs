@@ -34,7 +34,7 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     UserId = table.Column<int>(type: "INTEGER", nullable: false),
                     SeatNumber = table.Column<int>(type: "INTEGER", nullable: false),
-                    TrainId = table.Column<int>(type: "INTEGER", nullable: false)
+                    RouteId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

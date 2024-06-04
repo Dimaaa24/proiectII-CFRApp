@@ -195,10 +195,10 @@ const UserPage = ({username}) => {
                   Student - $10
                 </button>
                 <button
-                  onClick={() => handleOptionChange(route.id, 'Elder', 8)}
+                  onClick={() => handleOptionChange(route.id, 'Elder', 5)}
                   className="block px-4 py-2 hover:bg-gray-200"
                 >
-                  Elder - $8
+                  Elder - 5$
                 </button>
                 <button
                   onClick={() => handleOptionChange(route.id, 'Adult', 15)}

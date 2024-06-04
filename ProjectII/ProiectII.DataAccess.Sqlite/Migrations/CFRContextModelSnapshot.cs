@@ -52,7 +52,7 @@ namespace ProiectII.DataAccess.Sqlite.Migrations
                     b.Property<int>("SeatNumber")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("TrainId")
+                    b.Property<int>("RouteId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("UserId")

@@ -50,7 +50,7 @@ namespace ProiectII.WebAPI.Controllers
 
             ticket.UserId = request.UserId;
             ticket.SeatNumber = request.SeatNumber;
-            ticket.TrainId = request.TrainId;
+            ticket.RouteId = request.RouteId;
 
             await cfrContext.SaveChangesAsync();
 
