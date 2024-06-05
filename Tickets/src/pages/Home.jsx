@@ -5,7 +5,7 @@ const Home = () => {
         <h1 className="text-6xl text-white font-extralight">
           Ticket Application
         </h1>
-        <p className="italic font-extralight mt-4 text-white">ADHD presents</p>
+        <p className="italic font-extralight mt-4 text-white">A ticket booth simulation</p>
         <div className="w-1/2 h-px bg-white my-4 mx-auto "></div>{' '}
         <div className="mt-10 mx-auto ml-8">
           <div className="content">

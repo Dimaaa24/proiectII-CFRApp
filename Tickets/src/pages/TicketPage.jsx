@@ -37,8 +37,6 @@ const TicketPage = () => {
       .catch((error) => console.error("Error fetching tickets:", error));
   }, [userId]);
 
-
-
   return (
     <>
       <div className="bg-blue-900 text-white">
@@ -67,10 +65,13 @@ const TicketPage = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center h-screen">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
+      <div className="container mx-auto mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {tickets.map((ticket) => (
-            <div key={ticket.id} className="bg-white shadow-md rounded-lg">
+            <div
+              key={ticket.id}
+              className="bg-white shadow-md rounded-lg max-w-xs"
+            >
               <div style={{ width: "300px", height: "200px" }} className="p-4">
                 <p>
                   <strong>Seat Number:</strong> {ticket.seatNumber}

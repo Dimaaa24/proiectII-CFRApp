@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.businessmodels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,7 +60,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -116,12 +116,11 @@
               "RelativeToolTip": "ProiectII.BusinessModels\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:49:28.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T14:49:28.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RouteController.cs",
               "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\RouteController.cs",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\RouteController.cs",
@@ -129,8 +128,7 @@
               "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\RouteController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T15:12:20.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T15:12:20.195Z"
             },
             {
               "$type": "Document",
@@ -146,26 +144,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowFQAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T16:05:59.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TicketController.cs",
               "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\TicketController.cs",
               "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\TicketController.cs",
               "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\TicketController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAYAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T15:05:11.004Z",
               "EditorCaption": ""
@@ -180,8 +178,7 @@
               "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:07:12.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T15:07:12.637Z"
             },
             {
               "$type": "Document",
