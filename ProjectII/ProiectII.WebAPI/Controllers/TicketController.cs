@@ -30,12 +30,23 @@ namespace ProiectII.WebAPI.Controllers
             return Ok(ticket);
         }
 
+        [HttpGet("/user/{userId}")]
+        public async Task<ActionResult<IEnumerable<Ticket>>> GetTicketsByUserId(int userId)
+        {
+            var tickets = cfrContext.Tickets.Where(ticket => ticket.UserId == userId).ToList();
+            if (tickets == null || tickets.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(tickets);
+        }
+
         [HttpPost]
         public async Task<ActionResult<List<Ticket>>> AddTicket(Ticket ticket)
         {
             cfrContext.Tickets.Add(ticket);
             await cfrContext.SaveChangesAsync();
-            return Ok();
+            return Ok(ticket);
         }
 
         [HttpPut("{request.id}")]

@@ -1,57 +1,55 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\",
+  "WorkspaceRootPath": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.businessmodels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|solutionrelative:proiectii.businessmodels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.dataaccess.sqlite\\cfrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|solutionrelative:proiectii.dataaccess.sqlite\\cfrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.businessmodels\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|solutionrelative:proiectii.businessmodels\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.webapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150412_Initial-Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProiectII.DataAccess.Sqlite\\Migrations\\20240604150412_Initial-Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.webapi\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.businessmodels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|solutionrelative:proiectii.businessmodels\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.dataaccess.sqlite\\migrations\\20240604150712_initial-create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|solutionrelative:proiectii.dataaccess.sqlite\\migrations\\20240604150712_initial-create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.dataaccess.sqlite\\cfrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48984DC-F5CB-486B-805D-BC1DCC2D4F6D}|ProiectII.DataAccess.Sqlite\\ProiectII.DataAccess.Sqlite.csproj|solutionrelative:proiectii.dataaccess.sqlite\\cfrcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.businessmodels\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02005FA8-A476-4C7F-98F6-DDD15213CDEB}|ProiectII.BusinessModels\\ProiectII.BusinessModels.csproj|solutionrelative:proiectii.businessmodels\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150412_Initial-Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.webapi\\proiectii.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\proiectii.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\proiectii.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|c:\\users\\sergi\\onedrive\\desktop\\proiectgota2\\projectii\\proiectii.webapi\\proiectii.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|d:\\facultate\\proiectii\\proiectgotareal\\projectii\\proiectii.webapi\\proiectii.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9D1729DF-3531-4B21-B0D9-6C4F63F6D33F}|ProiectII.WebAPI\\ProiectII.WebAPI.csproj|solutionrelative:proiectii.webapi\\proiectii.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -62,112 +60,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240604150712_Initial-Create.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
-              "RelativeDocumentMoniker": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
-              "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:07:12.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Controllers\\TicketController.cs",
-              "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\TicketController.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Controllers\\TicketController.cs",
-              "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\TicketController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAADUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:05:11.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "20240604150412_Initial-Create.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150412_Initial-Create.cs",
-              "RelativeDocumentMoniker": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604150412_Initial-Create.cs",
               "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150412_Initial-Create.cs",
-              "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604150412_Initial-Create.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:04:12.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.BusinessModels\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "ProiectII.BusinessModels\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.BusinessModels\\Models\\Ticket.cs",
-              "RelativeToolTip": "ProiectII.BusinessModels\\Models\\Ticket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:03:27.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T15:04:12.641Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20240604145754_update.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs",
-              "RelativeDocumentMoniker": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs",
-              "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.BusinessModels\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "ProiectII.BusinessModels\\Models\\Ticket.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.BusinessModels\\Models\\Ticket.cs",
+              "RelativeToolTip": "ProiectII.BusinessModels\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:57:54.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CFRContext.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\CFRContext.cs",
-              "RelativeDocumentMoniker": "ProiectII.DataAccess.Sqlite\\CFRContext.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\CFRContext.cs",
-              "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\CFRContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:52:44.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.BusinessModels\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ProiectII.BusinessModels\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.BusinessModels\\Models\\User.cs",
-              "RelativeToolTip": "ProiectII.BusinessModels\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:49:28.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-06-04T15:03:27.016Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "20240604145754_update.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604145754_update.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:57:54.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CFRContext.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.DataAccess.Sqlite\\CFRContext.cs",
+              "RelativeDocumentMoniker": "ProiectII.DataAccess.Sqlite\\CFRContext.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.DataAccess.Sqlite\\CFRContext.cs",
+              "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\CFRContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:52:44.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.BusinessModels\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProiectII.BusinessModels\\Models\\User.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.BusinessModels\\Models\\User.cs",
+              "RelativeToolTip": "ProiectII.BusinessModels\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:49:28.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RouteController.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Controllers\\RouteController.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\RouteController.cs",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\RouteController.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Controllers\\RouteController.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\RouteController.cs",
               "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\RouteController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T15:12:20.195Z"
             },
@@ -175,9 +134,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "ProiectII.WebAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -185,11 +144,49 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowFQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:05:59.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\TicketController.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\TicketController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:05:11.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240604150712_Initial-Create.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
+              "RelativeDocumentMoniker": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
+              "RelativeToolTip": "ProiectII.DataAccess.Sqlite\\Migrations\\20240604150712_Initial-Create.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:07:12.637Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ProiectII.WebAPI.http",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.http",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.http",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\ProiectII.WebAPI.http",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.http",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.http",
               "RelativeToolTip": "ProiectII.WebAPI\\ProiectII.WebAPI.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -197,36 +194,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Program.cs",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Program.cs",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\Program.cs",
               "RelativeToolTip": "ProiectII.WebAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T17:52:12.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ProiectII.WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ProiectII.WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAACUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T16:05:59.21Z"
+              "WhenOpened": "2024-05-30T17:52:12.69Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ProiectII.WebAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.csproj",
+              "DocumentMoniker": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.csproj",
               "RelativeDocumentMoniker": "ProiectII.WebAPI\\ProiectII.WebAPI.csproj",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Desktop\\proiectgota2\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.csproj",
+              "ToolTip": "D:\\Facultate\\ProiectII\\proiectgotaReal\\ProjectII\\ProiectII.WebAPI\\ProiectII.WebAPI.csproj",
               "RelativeToolTip": "ProiectII.WebAPI\\ProiectII.WebAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

@@ -76,12 +76,34 @@ namespace ProjectII.Controllers
             {
                 Id = user.Id,
                 UserName = user.UserName,
-                Email = user.Email
+                Email = user.Email,
+                IsBanned = user.IsBanned,
             });
         }
 
-        [HttpPut("{request.id}")]
-        public async Task<ActionResult<List<Train>>> UpdateUser(User user)
+        [HttpPut("{userName}")]
+        public async Task<ActionResult<User>> UpdateUser(string userName, User user)
+        {
+            // Find the user by username
+            User userToUpdate = await CFRcontext.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+
+            if (userToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            // Update the user's password
+            userToUpdate.Password = user.Password;
+
+            // Save changes to the database
+            await CFRcontext.SaveChangesAsync();
+
+            // Return the updated user
+            return Ok(userToUpdate);
+        }
+
+        [HttpPut("/ban/{request.id}")]
+        public async Task<ActionResult<List<Train>>> BanUser(User user)
         {
             User userUpdate = CFRcontext.Users.Find(user.Id);
 
@@ -90,9 +112,7 @@ namespace ProjectII.Controllers
                 return NotFound();
             }
 
-            userUpdate.UserName = user.UserName;
-            userUpdate.Password = user.Password;
-            userUpdate.Email = user.Email;
+            userUpdate.IsBanned = user.IsBanned;
 
             await CFRcontext.SaveChangesAsync();
 

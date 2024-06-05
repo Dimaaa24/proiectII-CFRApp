@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
-const UserPage = ({username}) => {
+const UserPage = ({ username }) => {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [routes, setRoutes] = useState([]);
@@ -51,38 +51,47 @@ const UserPage = ({username}) => {
     setSelectedRoute(null); // Close the dropdown menu
   };
 
-  // const handleBuy = (route) => {
-  //   const routeDetails = {
-  //     source: route.source,
-  //     destination: route.destination,
-  //     departureTime: route.departureTime,
-  //     arrivalTime: route.arrivalTime,
-  //     price: routeOptions[route.id]?.price,
-  //     type: routeOptions[route.id]?.option,
-  //   };
-  //   localStorage.setItem('routeDetails', JSON.stringify(routeDetails));
-  //   alert('Route purchased successfully!');
-  // };
-  const handleBuy = (route) => {
-    const routeDetails = {
-      source: route.source,
-      destination: route.destination,
-      departureTime: route.departureTime,
-      arrivalTime: route.arrivalTime,
-      price: routeOptions[route.id]?.price,
-      type: routeOptions[route.id]?.option,
-    };
+  const handleBuy = async (route) => {
+    try {
+      // Validate user ID and departure date (optional but recommended)
+      if (!document.getElementById("departure-date").value) {
+        throw new Error("Please select a departure date.");
+      }
 
-    // Get existing tickets from localStorage
-    const existingTickets = JSON.parse(localStorage.getItem(username)) || [];
-    
-    // Add new route details to the existing tickets
-    const updatedTickets = [...existingTickets, routeDetails];
-    
-    // Save the updated tickets back to localStorage
-    localStorage.setItem(username, JSON.stringify(updatedTickets));
-    
-    alert('Route purchased successfully!');
+      const routeDetails = {
+        userId: parseInt(localStorage.getItem("userId")),
+        seatNumber: Math.floor(Math.random() * 100) + 1, // Generate random seat number
+        routeId: route.id,
+
+        departureDate: document.getElementById("departure-date").value,
+        ticketType: routeOptions[route.id]?.option,
+      };
+
+      console.log("Route details:", routeDetails);
+
+      const response = await fetch("http://localhost:5110/Tickets", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(routeDetails),
+      });
+
+      if (!response.ok) {
+        // Handle non-2xx status codes
+        const errorData = await response.json();
+        throw new Error(
+          errorData.message || "Ticket purchase failed (unknown error)"
+        );
+      }
+
+      const data = await response.json();
+      console.log("Success:", data);
+      alert("Ticket purchased successfully!");
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error: " + error.message); // Display user-friendly error message
+    }
   };
 
   return (
@@ -98,11 +107,18 @@ const UserPage = ({username}) => {
               {localStorage.getItem("username")}
             </label>
             <NavLink
+              to="/mytickets"
+              className="bg-orange-500 px-4 py-2 rounded text-white"
+            >
+              Tickets
+            </NavLink>
+            <NavLink
               to="/login"
               className="bg-orange-500 px-4 py-2 rounded text-white"
             >
               Logout
             </NavLink>
+            
           </div>
         </div>
       </div>
@@ -171,60 +187,64 @@ const UserPage = ({username}) => {
       </div>
 
       <div className="container mx-auto mt-8">
-      {routes.map((route) => (
-        <div key={route.id} className="bg-white rounded-lg shadow-md p-4 mb-4">
-          <p className="font-bold">Route Details:</p>
-          <p>
-            From: {route.source} ------ To: {route.destination}
-          </p>
-          <p>Departure: {route.departureTime}</p>
-          <p>Arrival: {route.arrivalTime}</p>
-          <div className="relative">
-            <button
-              onClick={() => setSelectedRoute(route.id)}
-              className="bg-blue-500 text-white py-2 px-4 rounded"
-            >
-              Select Ticket Type
-            </button>
-            {selectedRoute === route.id && (
-              <div className="absolute bg-white border mt-2 py-2 rounded shadow-lg">
+        {routes.map((route) => (
+          <div
+            key={route.id}
+            className="bg-white rounded-lg shadow-md p-4 mb-4"
+          >
+            <p className="font-bold">Route Details:</p>
+            <p>
+              From: {route.source} ------ To: {route.destination}
+            </p>
+            <p>Departure: {route.departureTime}</p>
+            <p>Arrival: {route.arrivalTime}</p>
+            <div className="relative">
+              <button
+                onClick={() => setSelectedRoute(route.id)}
+                className="bg-blue-500 text-white py-2 px-4 rounded"
+              >
+                Select Ticket Type
+              </button>
+              {selectedRoute === route.id && (
+                <div className="absolute bg-white border mt-2 py-2 rounded shadow-lg">
+                  <button
+                    onClick={() => handleOptionChange(route.id, "Student", 10)}
+                    className="block px-4 py-2 hover:bg-gray-200"
+                  >
+                    Student - $10
+                  </button>
+                  <button
+                    onClick={() => handleOptionChange(route.id, "Elder", 8)}
+                    className="block px-4 py-2 hover:bg-gray-200"
+                  >
+                    Elder - $8
+                  </button>
+                  <button
+                    onClick={() => handleOptionChange(route.id, "Adult", 15)}
+                    className="block px-4 py-2 hover:bg-gray-200"
+                  >
+                    Adult - $15
+                  </button>
+                </div>
+              )}
+            </div>
+            {routeOptions[route.id] && (
+              <div className="mt-4">
+                <p>
+                  Selected Option: {routeOptions[route.id].option} - Final
+                  Price: ${routeOptions[route.id].price}
+                </p>
                 <button
-                  onClick={() => handleOptionChange(route.id, 'Student', 10)}
-                  className="block px-4 py-2 hover:bg-gray-200"
+                  onClick={() => handleBuy(route)}
+                  className="bg-green-500 text-white py-2 px-4 rounded"
                 >
-                  Student - $10
-                </button>
-                <button
-                  onClick={() => handleOptionChange(route.id, 'Elder', 8)}
-                  className="block px-4 py-2 hover:bg-gray-200"
-                >
-                  Elder - $8
-                </button>
-                <button
-                  onClick={() => handleOptionChange(route.id, 'Adult', 15)}
-                  className="block px-4 py-2 hover:bg-gray-200"
-                >
-                  Adult - $15
+                  BUY
                 </button>
               </div>
             )}
           </div>
-          {routeOptions[route.id] && (
-            <div className="mt-4">
-              <p>
-                Selected Option: {routeOptions[route.id].option} - Final Price: ${routeOptions[route.id].price}
-              </p>
-              <button
-                onClick={() => handleBuy(route)}
-                className="bg-green-500 text-white py-2 px-4 rounded"
-              >
-                BUY
-              </button>
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
     </>
   );
 };
